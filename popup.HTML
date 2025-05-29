@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yaseen's BS Machine</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <h1>Yaseen's BS Machine</h1>
+
+  <div>
+    <label for="primaryText">Primary Text:</label>
+    <textarea id="primaryText" rows="4"></textarea>
+  </div>
+  <div>
+    <label for="targetedLanguage">Targeted Language (pick whatever languge you want, Spanish, arabic , Japanese whatever):</label>
+    <input type="text" id="targetedLanguage">
+  </div>
+  <div>
+    <label for="tone">Tone ( determines how the text sounds or the feelings you want to convey , formal, humorous, or just defualt):</label>
+    <input type="text" id="tone">
+  </div>
+  <div>
+    <label for="region">Region for subtle style (the accent , for example if you want italian , you can choose napolitani , sicilian or even polentoni ):</label>
+    <input type="text" id="region">
+  </div>
+  <div>
+    <label for="style">Writing Style (style is different from tone, style determines your persona , not your feelings):</label>
+    <input type="text" id="style">
+  </div>
+
+  <button id="BUTT">Transform Text</button>
+
+  <h2>Transformed Reply:</h2>
+  <div id="transformedReply">Your transformed text will appear here...</div>
+
+  
+  
+  <script  src="popup.js" type="module"></script>
+</body>
+</html>
